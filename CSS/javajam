@@ -1,1 +1,217 @@
+@font-face {
+    font-family: 'quesha';
+    src: url(../fonts/Quesha.ttf);
+}
+@font-face {
+    font-family: 'humble';
+    src: url(../fonts/HumbleCafeItalic.ttf);
+}
+@font-face {
+    font-family: 'cordo';
+    src: url(../fonts/cordoba/Cordoba\ Sans.ttf);
+}
 
+/* LOGIN/SIGNUP */
+
+.f_quesha {
+    font-family: 'quesha';
+}
+
+.f_humble{
+    font-family: 'humble';
+}
+
+.f_cordo{
+    font-family: 'cordo';
+}
+
+.nav_f-size {
+    font-size: 80px !important;
+}
+
+.bg_colr {
+    background: #f6f3ea !important;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+form.round {
+    border-radius: 25px;
+}
+
+.input_w {
+    width: 400px !important;
+}
+
+hr.solid {
+    border-top: 3px solid rgb(104, 23, 23);
+}
+
+.input_modal{
+    width: 200px;
+}
+
+.input_p {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.error {
+    color: #E00000;
+    font-size: 10px;
+}
+
+/* MAIN PAGES */
+
+* {
+    box-sizing: border-box;
+}
+
+.f_family {
+    font-family: 'quesha';
+    font-size: 50px;
+    align-items: flex-end;
+}
+
+body {
+    background-color: #FCEBB6;
+    background: url(../images/fadedroad.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #221811;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+.logo-img {
+    height: 70px;
+    width: 85px;
+}
+
+#wrapper {
+    background-color: #231814;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    min-width: 900px;
+    max-width: 1280px;
+    box-shadow: 3px 3px 3px #676767;
+    padding: 0;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    color: #8C3826;
+}
+
+h3,
+dt {
+    color: #8C3826;
+}
+
+h4 {
+    background-color: #D2B48C;
+    font-size: 1.2em;
+    padding-left: .5em;
+    padding-bottom: 0;
+    text-transform: uppercase;
+    border-bottom: 1px solid #221811;
+    clear: left;
+}
+
+main {
+    background-color: #FEF6C2;
+    display: block;
+    overflow: auto;
+    padding: 0 0 2em 0;
+}
+
+.mx-6 {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+h2,
+h3,
+h4,
+p,
+div,
+ul,
+dl {
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+.details {
+    padding-left: 20%;
+    padding-right: 20%;
+    overflow: auto;
+}
+
+.floatleft {
+    float: left;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+
+.onethird {
+    float: left;
+    width: 33%;
+}
+
+
+img {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#homehero {
+    height: 350px;
+    background-image: url(../images/hero.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center center;
+    background-size: cover;
+}
+
+#heromugs {
+    height: 300px;
+    background-image: url(../images/heromugs.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#heroguitar {
+    height: 300px;
+    background-image: url(../images/heroguitar.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.form_width{
+    width: 300px;
+}
+
+footer {
+    background-color: #D2B48C;
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 1em;
+    border-top: 2px solid #8C3826;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -2%;
+}
